@@ -1,0 +1,51 @@
+.employee-form {
+  display: block;
+  padding: .5rem;
+  margin-top: 2rem;
+  -webkit-box-shadow: 0 0 10px 3px rgba(78, 78, 78, 0.656);
+          box-shadow: 0 0 10px 3px rgba(78, 78, 78, 0.656);
+}
+
+.employee-form section {
+  display: inline-block;
+}
+
+.employee-form section input {
+  width: 300px;
+  padding: 1rem;
+  font-size: 1.1rem;
+  margin: 1rem 2rem;
+}
+
+.employee-form section input:focus {
+  outline: none;
+  border: 3px solid green;
+}
+
+.employee-form .action-btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.employee-form .action-btns button {
+  color: white;
+  background-color: black;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  margin: 1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.employee-form .action-btns .cancel {
+  color: black;
+  background-color: #bcbcbc;
+  margin-left: 2rem;
+}
+/*# sourceMappingURL=employeeForm.css.map */

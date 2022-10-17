@@ -1,0 +1,23 @@
+tr{
+    border-right: 2px solid grey;
+    border-bottom: 3px solid grey;
+   td{
+    font-size: 1.5rem;  
+    padding: 1rem 2rem 1rem 2rem;
+    border-left: 2px solid grey;
+    &:last-child{
+        border-right: 2px solid grey;
+        
+      }
+   } 
+
+   .action-btns{
+      display: flex;
+      img{
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        margin: auto .5rem;
+      }
+   }
+}

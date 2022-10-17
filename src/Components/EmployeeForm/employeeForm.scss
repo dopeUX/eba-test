@@ -1,0 +1,39 @@
+.employee-form{
+    display: block;
+     padding: .5rem;
+     margin-top: 2rem;
+     box-shadow: 0 0 10px 3px rgba(78, 78, 78, 0.656);
+     section{    
+     display: inline-block;
+     input{
+        width: 300px;
+        padding: 1rem;
+        font-size: 1.1rem;
+        margin: 1rem 2rem;
+        &:focus{
+            outline: none;
+            border: 3px solid green;
+        }
+      }
+     }
+     .action-btns{
+        display: flex;
+        margin:1rem;
+        align-items: center;
+        button{
+          color: white;
+          background-color: black;
+          border: none;
+          padding: 1rem 2rem;
+          font-size: 1.1rem;
+          margin: 1rem;
+          border-radius: 1rem;
+          cursor: pointer;
+        }
+        .cancel{
+          color: black;
+          background-color: rgb(188, 188, 188);
+          margin-left: 2rem;
+        }
+     }
+   } 

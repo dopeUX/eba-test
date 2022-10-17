@@ -1,0 +1,28 @@
+tr {
+  border-right: 2px solid grey;
+  border-bottom: 3px solid grey;
+}
+
+tr td {
+  font-size: 1.5rem;
+  padding: 1rem 2rem 1rem 2rem;
+  border-left: 2px solid grey;
+}
+
+tr td:last-child {
+  border-right: 2px solid grey;
+}
+
+tr .action-btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+tr .action-btns img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  margin: auto .5rem;
+}
+/*# sourceMappingURL=tableBody.css.map */

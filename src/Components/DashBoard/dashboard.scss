@@ -1,0 +1,75 @@
+.dashboard{
+    .dashboard-header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+       h1{
+            margin: 0; 
+      }
+      button{
+        background-color: black;
+        color: white;
+        padding: 1rem 3rem;
+        font-weight: 500;
+        font-size: 1.2rem;
+        border: none;
+        border-radius: 15px;
+        cursor: pointer;
+      }
+    }
+   
+    .dashboard-table{
+    width: 100%;    
+    display: block;
+    .search-section{
+     width: 100%;
+     height: fit-content;
+     position: relative;
+     align-items: center;
+    input{
+        width: 97%;
+        padding: 1rem;
+        margin: 2rem 0;
+
+        &:focus{
+            border:2px solid green;
+            outline: none;
+        }
+     }
+     .search-loader{
+        width: fit-content;
+        height: fit-content;
+         position: absolute;
+      right: 1rem;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      margin-top: 1.8rem;
+     }
+    }
+    .table-wrapper{
+        overflow-x: auto;
+    table{
+        width: 100%;
+        overflow-x: scroll;
+        // border: none;
+        border-collapse: collapse;
+        // border-bottom: 3px solid grey;
+        thead{
+            tr{
+                th{
+                    font-size: 1.5rem;
+                   text-align: left; 
+                   white-space: nowrap;
+                   border-left: 2px solid grey;
+                   padding: 1rem 2rem 1rem 2rem;
+                   border-bottom: 2px solid grey;
+                   border-top: 2px solid grey;
+
+                }
+            }
+        }
+      }
+    } 
+   }
+}

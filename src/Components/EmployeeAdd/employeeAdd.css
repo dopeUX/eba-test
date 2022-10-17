@@ -1,0 +1,11 @@
+.employee-add {
+  display: table;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.employee-add h1 {
+  font-size: 2rem;
+}
+/*# sourceMappingURL=employeeAdd.css.map */
